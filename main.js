@@ -57,3 +57,31 @@ var numero = 3;
 numero *= 2;
 var numero = 10;
 numero /= 2;
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07");
+
+contadores[0].textContent = tempoObjetivo1;
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07")
+
+let tempo = tempoObjetivo1.getTime();
+
+contadores[0].textContent = tempo;
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07")
+
+let tempo = tempoObjetivo1.getDate();
+
+contadores[0].textContent = tempo;
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07")
+
+let tempo = tempoObjetivo1.getMonth();
+
+contadores[0].textContent = tempo;
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07")
+
+let tempo = tempoObjetivo1.getFullYear();
+
+contadores[0].textContent = tempo;
