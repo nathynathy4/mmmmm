@@ -106,3 +106,21 @@ body {
   }
 
 }
+.contador {
+  display: flex;
+  justify-content: center;
+}
+.contador-digito {
+  padding: 0 16px;
+  text-align: center;
+}
+.contador-digito-texto {
+  color: var(--verde);
+  font-size: 20px;
+  margin: 0;
+}
+.contador-digito {
+  padding: 0 16px;
+  text-align: center;
+  min-width: 100px;
+}
