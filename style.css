@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
 
 :root {
-  --cor-de-fundo: #000000;
-  --verde: #0400ff;
-  --branco: #c90075;
-  --botao-ativo: #070707;
-  --botao-inativo: rgba(58, 55, 94, 0.5);
-  --texto-fundo: rgba(58, 55, 94, 0.3);
+  --cor-de-fundo: #030303;
+  --laranja: #b3045b;
+  --branco: #ffffff;
+  --botao-ativo: #f80275dc;
+  --botao-inativo: rgba(253, 112, 195, 0.562);
+  --texto-fundo: rgba(243, 232, 228, 0.3);
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .titulo-principal span {
-  color: var(--verde);
+  color: var(--laranja);
 }
 
 .botao {
@@ -59,7 +59,7 @@ body {
 
 .ativo {
   background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
+  border-bottom: 4px solid var(--laranja);
 }
 
 .abas-textos {
@@ -82,13 +82,31 @@ body {
 }
 .aba-conteudo-titulo-secundario {
   text-align: center;
-  color: var(--verde);
+  color: var(--branco);
   text-transform: uppercase;
 }
 
 .contador {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contador-digito {
+  padding: 0 16px;
   text-align: center;
+  min-width: 100px;
+}
+
+.contador-digito-numero {
+  font-size: 80px;
+  margin: 0;
+}
+
+.contador-digito-texto {
+  color: var(--branco);
+  font-size: 20px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -105,22 +123,4 @@ body {
     border-radius: 0 40px 0 0;
   }
 
-}
-.contador {
-  display: flex;
-  justify-content: center;
-}
-.contador-digito {
-  padding: 0 16px;
-  text-align: center;
-}
-.contador-digito-texto {
-  color: var(--verde);
-  font-size: 20px;
-  margin: 0;
-}
-.contador-digito {
-  padding: 0 16px;
-  text-align: center;
-  min-width: 100px;
 }
